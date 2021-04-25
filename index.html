@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loan Calulator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+<body>
+<div class="loan">
+	<h1 >Loan Calculator</h1>
+	<div class="cal">
+	<p>
+		Amount(Rs.) :
+		<input type="number" id="amt" onchange="calculate()">
+	</p>
+	
+	<p>
+		Rate of Intrest (%):
+		<input type="number" id="int" onchange="calculate()">
+	</p>
+	
+	<p>
+		Period (in monts):
+		<input type="number" id="time" onchange="calculate()">
+	</p>
+	
+	<h2 id="total"></h2>
+	<h2 id="totalInt"></h2>
+	
+	</div>
+</div>
+<script type="text/javascript" src="main.js"></script>	
+</body>
+</html>
